@@ -1,0 +1,77 @@
+{
+  "code": "dim_project",
+  "name": "Project Dimension",
+  "description": "A table containing details of all current and historic projects that the organisation has worked on for customers.",
+  "attributes": [
+    {
+      "name": "project_key",
+      "is_surrogate_key": true,
+      "data_type": {
+        "type": "integer",
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "client_name",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "string",
+        "max_length": 255,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "project_id",
+      "is_natural_key": true,
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "integer",
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "project_name",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "string",
+        "max_length": 255,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "start_date",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "date",
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "end_date",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "date",
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "status",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "string",
+        "max_length": 50,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "budget",
+      "is_type1_scd": true,
+      "data_type": {
+        "type": "decimal",
+        "precision": 19,
+        "scale": 4,
+        "is_nullable": false
+      }
+    }
+  ]
+}

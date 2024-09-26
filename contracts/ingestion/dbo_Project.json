@@ -1,0 +1,90 @@
+{
+  "code": "dbo_Project",
+  "name": "dbo.Project",
+  "description": "The dbo.Project table.",
+  "data_source": {
+    "source_query": "SELECT * FROM [dbo].[Project]"
+  },
+  "attributes": [
+    {
+      "name": "ProjectID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "ClientID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "ProjectName",
+      "data_type": {
+        "type": "string",
+        "max_length": 255,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "StartDate",
+      "data_type": {
+        "type": "date",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "EndDate",
+      "data_type": {
+        "type": "date",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "Status",
+      "data_type": {
+        "type": "string",
+        "max_length": 50,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "Budget",
+      "data_type": {
+        "type": "decimal",
+        "max_length": null,
+        "precision": 19,
+        "scale": 4,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "Description",
+      "data_type": {
+        "type": "string",
+        "max_length": -1,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    }
+  ]
+}

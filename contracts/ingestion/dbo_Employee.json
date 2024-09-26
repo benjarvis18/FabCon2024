@@ -1,0 +1,100 @@
+{
+  "code": "dbo_Employee",
+  "name": "dbo.Employee",
+  "description": "The dbo.Employee table.",
+  "data_source": {
+    "source_query": "SELECT * FROM [dbo].[Employee]"
+  },
+  "attributes": [
+    {
+      "name": "EmployeeID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "FirstName",
+      "data_type": {
+        "type": "string",
+        "max_length": 100,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "LastName",
+      "data_type": {
+        "type": "string",
+        "max_length": 100,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "Email",
+      "data_type": {
+        "type": "string",
+        "max_length": 255,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "Phone",
+      "data_type": {
+        "type": "string",
+        "max_length": 15,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "HireDate",
+      "data_type": {
+        "type": "date",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "JobTitle",
+      "data_type": {
+        "type": "string",
+        "max_length": 100,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "Department",
+      "data_type": {
+        "type": "string",
+        "max_length": 100,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "IsActive",
+      "data_type": {
+        "type": "boolean",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    }
+  ]
+}

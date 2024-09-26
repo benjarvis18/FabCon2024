@@ -1,0 +1,70 @@
+{
+  "code": "dbo_ProjectAssignment",
+  "name": "dbo.ProjectAssignment",
+  "description": "The dbo.ProjectAssignment table.",
+  "data_source": {
+    "source_query": "SELECT * FROM [dbo].[ProjectAssignment]"
+  },
+  "attributes": [
+    {
+      "name": "ProjectAssignmentID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "EmployeeID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "ProjectID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "Role",
+      "data_type": {
+        "type": "string",
+        "max_length": 100,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    },
+    {
+      "name": "AssignmentStartDate",
+      "data_type": {
+        "type": "date",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "AssignmentEndDate",
+      "data_type": {
+        "type": "date",
+        "max_length": null,
+        "precision": null,
+        "scale": null,
+        "is_nullable": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Lakehouse",
+    "displayName": "ERP_BASE"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "73e09ef0-afe9-4054-b777-93796ba8d8d2"
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "code": "dbo_Client",
+  "name": "dbo.Client",
+  "description": "The dbo.Client table.",
+  "data_source": {
+    "source_query": "SELECT * FROM [dbo].[Client]"
+  },
+  "attributes": [
+    {
+      "name": "ClientID",
+      "data_type": {
+        "type": "integer",
+        "max_length": null,
+        "precision": 10,
+        "scale": 0,
+        "is_nullable": false
+      }
+    },
+    {
+      "name": "ClientName",
+      "data_type": {
+        "type": "string",
+        "max_length": 255,
+        "precision": null,
+        "scale": null,
+        "is_nullable": false
+      }
+    }
+  ]
+}
